@@ -2,9 +2,9 @@ import pygame
 import sys
 import random
 
-width = 1000
-height = 1000
-rows = 25
+width = 600
+height = 600
+rows = 20
 
 
 class SnakeNodes():
@@ -245,7 +245,7 @@ def main():
             if start_timer_done(timer) == True:
                 timer = 4
                 game_started = True
-        clock.tick(10)
+        clock.tick(8)
     pygame.quit()
     sys.exit(0)
 
